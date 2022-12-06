@@ -1,0 +1,8 @@
+CREATE DATABASE site;
+
+use site;
+
+CREATE TABLE usuarios(
+id_usuario INT PRIMARY KEY AUTO_INCREMENT,
+login VARCHAR(30)not null,
+senha VARCHAR(50)not null);
